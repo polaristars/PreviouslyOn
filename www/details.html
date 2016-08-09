@@ -1,0 +1,20 @@
+<ion-scroll direction="y" style="height: 1000px">
+<div class="details" ng-controller="DetailsController">
+	<h3>Rien d'affiché ? c'est que avez tout vus !</h3>
+
+	<div class="episodes" ng-repeat="noView in noViews">
+		<div class="desc" ng-click="check(noView.id)" ng-swipe-left="check(noView.id)" ng-swipe-right="check(noView.id)">
+			<p ng-click="pasVues(noView.id)" on-hold="onHold(noView.id)">{{noView.title}}</p>
+		</div>
+		<p>Saison</p>
+		<div class="desc">
+			{{noView.season}}
+		</div>
+		<p>Episode</p>
+		<div class="desc">
+			{{noView.episode}}
+		</div>
+	</div>
+	<button ng-click="back()" id="back">Retour dashboard</button>
+</div>
+</ion-scroll>

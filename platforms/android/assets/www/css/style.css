@@ -1,0 +1,231 @@
+#banner-connexion {
+	min-width: 657px;
+	margin-left: -145px;
+}
+.co {
+	background-color: #021F4C;
+	color: #A8EBF4;
+	text-align: center;
+	padding: 20px;
+	margin-top: 45px;
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-size: 28px;
+}
+#bouttonConnexion {
+	padding: 20px;
+	width: 100%;
+	background-color: #021F4C;
+	border-color: #05346C;
+	color: #A8EBF4;
+	font-size: 20px;
+}
+.platform-android .bar .title {
+	background-color: #021F4C;
+	text-align: center;
+	font-size: 37px;
+	color: white;
+	width: 100%;
+	margin-left: 0px;
+	min-height: 46px;
+}
+.dash {
+	min-height: 2000px;
+	margin-top: 50px;
+	background-color: black;
+}
+.listSeries {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#add {
+	width: 100%;
+	border: 2px solid white;
+	margin-top: -3px;
+}
+#add #plus {
+	width: 10%;
+	margin-left: 45%;
+}
+#add p {
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	font-size: 21px;
+}
+#nom {
+	margin-top: 47px;
+}
+.description {
+	background-color: black;
+	margin-top: 47px;
+	min-height: 568px;
+	color: white;
+}
+.scroll-view {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin-top: -1px;
+	background-color: black;
+}
+.titre {
+	min-height: 1500px;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+p {
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+}
+.desc {
+	text-align: center;
+}
+#back {
+	background-color: red;
+	border-color: red;
+	border-radius: 20px;
+	color: black;
+	margin-top: 15%;
+	margin-left: 32%;
+}
+.add {
+	min-height: 1400px;
+	background-color: black;
+}
+#recherche {
+	background-color: white;
+	border-color: white;
+	border-radius: 5px;
+	color: black;
+	margin-top: 15%;
+	margin-left: 42%;
+}
+.resultats {
+	color: white;
+}
+.ttre {
+	font-size: 15px;
+}
+.chaine {
+	font-weight: bold;
+}
+#mine {
+	background-color: white;
+	border-color: white;
+	border-radius: 5px;
+	color: black;
+	margin-top: 15%;
+	margin-left: 41%;
+}
+.descImg {
+	width: 100%;
+}
+#coin-coin {
+	width: 45%;
+	margin-top: 175px;
+	margin-left: 30%;
+}
+h2 {
+	margin-left: 25%
+}
+.retour {
+	background-color: #021F4C;
+	border: 1px solid #021F4C;
+	color: white;
+	margin-left: 26%;
+	padding: 15px;
+	border-radius: 5px;
+}
+.episodes {
+	color: white;
+}
+.details {
+	margin-top: 47px;
+	min-height: 2500px;
+}
+.moreDetails {
+	background-color: black;
+	color: white;
+}
+h3 {
+	color: grey;
+	font-size: 15px;
+	text-align: center;
+}
+.tellMeMore {
+	margin-top: 50px;
+}
+.showComm {
+	background-color: black;
+	min-height: 650px;
+}
+.showComm p {
+	color: red;
+	margin-top: 45px;
+}
+.tellme textarea {
+	margin-top: 40%;
+	padding: 20%;
+	margin-left: 11%;
+	border: 2px solid red;
+}
+.tellmeBoutton {
+	background-color: red;
+	border: 5px solid red;
+	border-radius: 7px;
+	margin-top: 5px;
+	margin-left: 33%;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 2%;
+}
+.back {
+	background-color: red;
+	border: 5px solid red;
+	border-radius: 7px;
+	margin-top: 5px;
+	margin-left: 23%;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 2%;
+}
+#friend {
+	border: 2px solid white;
+	padding: 2px;
+}
+#friend p {
+	color: blue;
+	font-size: 20px;
+}
+.ami {
+	margin-top: 40px;
+}
+.amisList {
+	margin-top: 47px;
+	color: white;
+}
+.change {
+	margin-top: 60px;
+	margin-left: 48px;
+	background-color: pink;
+	border: 2px solid pink;
+	border-radius: 2px;
+	padding: 21px;
+	color: white;
+	font-weight: bold;
+}
+.menuAmi {
+	background-color: black;
+	min-height: 645px;
+}
+.success p {
+	margin-top: 50px;
+}

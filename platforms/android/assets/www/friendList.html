@@ -1,0 +1,13 @@
+<ion-scroll direction="y" style="height: 1000px">
+<div class="amisList" ng-controller="FriendListController">
+
+	<div class="ami" ng-repeat="ami in amis" ng-click="menuAmi(ami.id)">
+		<p>{{ami.login}}</p>
+	</div>
+	<p>Invitations</p>
+	<div class="demande" ng-click="demandeAmi()" ng-repeat="list in lists">
+		{{list.login}}
+	</div>
+	<button ng-click="back()" id="back">Retour dashboard</button>
+</div>
+</ion-scroll>

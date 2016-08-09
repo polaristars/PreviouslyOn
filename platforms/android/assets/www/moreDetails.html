@@ -1,0 +1,27 @@
+<ion-scroll direction="y" style="height: 1000px">
+<div class="moreDetails" ng-controller="MoreDetailsController">
+
+	<div class="tellMeMore">
+		<p>{{detail.title}}</p>
+		<div class="desc">
+			{{detail.code}}
+		</div>
+		<img src="{{image}}" alt="" class="descImg">
+		<p>Date de diffusion</p>
+		<div class="desc">
+			{{detail.date}}
+		</div>
+		<p>Note</p>
+		<div class="desc">
+			{{detail.note.total}}
+		</div>
+		<p>Resumé</p>
+		<div class="desc">
+			{{detail.description}}
+		</div>
+	</div>
+
+	<button ng-click="back()" id="back">Retour dashboard</button>
+
+</div>
+</ion-scroll>

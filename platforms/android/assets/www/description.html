@@ -1,0 +1,56 @@
+<ion-scroll direction="y" style="height: 1000px">
+<div class="description" ng-controller="DesController">
+
+	<div class="titre">
+		<h1>{{description.title}}</h1>
+
+			<img src="{{image}}" alt="" class="descImg">
+		<p>
+			Nombre de saisons
+		</p>
+
+		<div class="desc">
+			{{description.seasons}}
+		</div>
+		
+		<p>
+			Nombre d'épisodes
+		</p>
+		<div class="desc" ng-click="details()">
+			{{description.episodes}}
+		</div>
+		
+		<p>
+			Durée
+		</p>
+		<div class="desc">
+			{{description.length}}
+		</div>
+		
+		<p>
+			Note
+		</p>
+		<div class="desc">
+			{{description.notes.total}}
+		</div>
+		
+		<p>
+			Résumé
+		</p>
+		<div class="desc">
+			{{description.description}}
+		</div>
+		
+		<p>
+			Genres
+		</p>
+		<div class="desc">
+			{{description.genres}}
+		</div>
+
+		<button ng-click="archivage()" id="mine">Archivez</button>
+		
+		<button ng-click="back()" id="back">Retour dashboard</button>
+	</div>
+</div>
+</ion-scroll>

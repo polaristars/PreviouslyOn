@@ -1,0 +1,25 @@
+
+<div class="add" ng-controller="AddController">
+
+	<label class="item item-input" id="nom">
+		<span class="input-label">Nom</span>
+		<input type="text" ng-model="titre">
+	</label>
+	<button type="validate" id="recherche" ng-click="search()">search</button>
+
+	<div class="resultats" ng-repeat="serieRecherche in serieRecherches" ng-model="serieRecherches">
+		<div class="ttre" ng-click="details(serieRecherche.id)">
+			{{serieRecherche.title}}
+		</div>
+		<div class="chaine">
+			{{serieRecherche.network}}
+		</div>
+
+		<div class="resultats" ng-repeat="amisRecherche in amisRecherches" ng-model="amisRecherches">
+			{{amisRecherche.login}}
+		</div>
+		
+	</div>
+
+	<button ng-click="back()" id="back">Retour dashboard</button>
+</div>

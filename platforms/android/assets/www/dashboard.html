@@ -1,0 +1,19 @@
+<ion-scroll direction="y" style="height: 1000px">
+<div class="dash" ng-controller="DashController">
+	<div id="add">
+		<p>Ajoutez une série ou un ami</p>
+
+		<img src="img/url.png" id="plus" alt="plus" ng-click="add()">
+	</div>
+
+	<div id="friend" ng-click="friend()">
+		<p>Voir ses amis</p>
+	</div>
+
+	<div class="listSeries" ng-repeat="serie in series" ng-click="description(serie.id)">
+		<p ng-click="titreSeries(serie.id)" on-hold="onHold(serie.id)">{{serie.title}}</p>
+
+	</div>
+	
+</div>
+</ion-scroll>
